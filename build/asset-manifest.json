@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.a8f48995.chunk.js",
+    "main.js.map": "/static/js/main.a8f48995.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f1853464.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f1853464.js.map",
+    "static/js/2.2a7956a2.chunk.js": "/static/js/2.2a7956a2.chunk.js",
+    "static/js/2.2a7956a2.chunk.js.map": "/static/js/2.2a7956a2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cd0c139ad4cfd0ae18deefbaae5686d5.js": "/precache-manifest.cd0c139ad4cfd0ae18deefbaae5686d5.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.2a7956a2.chunk.js.LICENSE.txt": "/static/js/2.2a7956a2.chunk.js.LICENSE.txt",
+    "static/media/CSRFimage.jpg": "/static/media/CSRFimage.4e6d023b.jpg",
+    "static/media/NOSQLimage.jpg": "/static/media/NOSQLimage.8e2034c0.jpg",
+    "static/media/SQLimage.jpg": "/static/media/SQLimage.29e7d4a6.jpg",
+    "static/media/XSSimage.jpg": "/static/media/XSSimage.3c5d3c94.jpg",
+    "static/media/inner-6.jpg": "/static/media/inner-6.9534d24f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1853464.js",
+    "static/js/2.2a7956a2.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a8f48995.chunk.js"
+  ]
+}
