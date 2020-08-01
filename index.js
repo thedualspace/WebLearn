@@ -67,12 +67,6 @@ app.use(
   })
 );
 
-app.use("/auth", authRoutes);
-
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
 
 //Handles all authentication related routes defined in auth-routes.js
 
@@ -94,6 +88,14 @@ app.get('/sql/results', (req, res) => {
     res.json(rows)
   });
 });
+
+app.use("/auth", authRoutes);
+
+app.use(express.static(path.join(__dirname, 'build')));
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 
 app.listen(PORT, () => {
   console.log(`Server started at http:localhost:${PORT}`)
