@@ -24,7 +24,6 @@ class App extends React.Component {
 
   async componentDidMount() {
     const authorized = await (await fetch('/auth/login/success', {credentials: 'include'})).json()
-    console.log(authorized)
     if (authorized.authenticated) {
       this.setState( {
         isAuthenticated : true,

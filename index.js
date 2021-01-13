@@ -14,7 +14,7 @@ const authRoutes = require("./routes/auth-routes");
 const MarkMCQ = require('./MarkMCQ');
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = 8000;
 const db = new sqlite.Database('./sqlite/users.db', err => {
   if (err) {
     throw err;
